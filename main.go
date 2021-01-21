@@ -12,9 +12,9 @@ import (
 const SearchURI = "https://www.data.qld.gov.au/api/3/action/package_search?q=organization:griffith-university"
 
 type SearchResults struct {
-	Help   string       `json:"help"`
-	Success bool `json:"success"`
-	Result SearchResult `json:"result"`
+	Help    string       `json:"help"`
+	Success bool         `json:"success"`
+	Result  SearchResult `json:"result"`
 }
 
 type SearchResult struct {
